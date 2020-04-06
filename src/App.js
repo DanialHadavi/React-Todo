@@ -96,14 +96,6 @@ class App extends React.Component {
             clearPurchased={this.clearPurchased}
           />
         </div>
-        <div>
-          <ReactSearchBox
-            placeholder="Placeholder"
-            value="Doe"
-            data={this.item}
-            callback={record => console.log(record)}
-          />
-        </div>
       </>
     );
   }
