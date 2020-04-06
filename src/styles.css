@@ -37,6 +37,23 @@ span {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-top {
+    margin-left: 90px;
+    margin-bottom: 20px;
+  }
+}
 h1 {
   text-align: left;
 }
